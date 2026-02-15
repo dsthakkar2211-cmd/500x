@@ -98,7 +98,7 @@ function HeroVideo() {
         preload="metadata"
         // @ts-ignore
         webkit-playsinline="true"
-        poster="/videos/hero-poster.jpg"
+        poster="/client/c-01.jpg"
       >
         <source src="/bg.mp4" type="video/mp4" />
       </video>
@@ -202,49 +202,49 @@ function PlatformImageSlider() {
         title: "500x Trading Platform",
         description:
           "All-in-one market trading interface displaying crypto, commodities, forex, indices, and real-time analytics.",
-        imageSrc: "./client/c-01.jpg",
+        imageSrc: "/client/c-01.jpg",
       },
       {
         title: "Active Trading Platform",
         description:
           "Modern trading terminal for traders enabling instant buy sell execution with real time data",
-        imageSrc: "./client/c-02.jpg",
+        imageSrc: "/client/c-02.jpg",
       },
       {
         title: "Live Positions & Portfolio Management",
         description:
           "Monitor open trades, real time profits, margins, equity levels, and manage positions with instant controls",
-        imageSrc: "./client/c-03.jpg",
+        imageSrc: "/client/c-03.jpg",
       },
       {
         title: "Trade History & Execution Reports",
         description:
           "Review complete trade history with timestamps, commissions, booked profit loss, filters, and detailed execution records",
-        imageSrc: "./client/c-04.jpg",
+        imageSrc: "/client/c-04.jpg",
       },
       {
         title: "Active Positions Management",
         description:
           "Manage open positions with real time profit loss tracking, margins, stop loss, take profit controls",
-        imageSrc: "./client/c-05.jpg",
+        imageSrc: "/client/c-05.jpg",
       },
       {
         title: "Wallet Balance & Transaction History",
         description:
           "View estimated balance, manage funds, track deposits, download statements, and monitor transaction status easily",
-        imageSrc: "./client/c-06.jpg",
+        imageSrc: "/client/c-06.jpg",
       },
       {
         title: "Notifications & Alerts control",
         description:
           "Control trading alerts, system notifications, market updates, and important account messages in real time easily",
-        imageSrc: "./client/c-07.jpg",
+        imageSrc: "/client/c-07.jpg",
       },
       {
         title: "User Settings & Controls",
         description:
           "Access notifications, security options, brokerage settings, leverage controls, logs, and account preferences from one place",
-        imageSrc: "./client/c-08.jpg",
+        imageSrc: "/client/c-08.jpg",
       },
     ],
     []
@@ -310,7 +310,7 @@ function FlexibleTradingSystemCard() {
       <div className="overflow-hidden ">
         <div className="relative w-full aspect-[16/9]">
           <Image
-            src="./client/c-10.png"
+            src="/client/c-10.png"
             alt="Flexible trading system"
             fill
             className="object-contain"
@@ -354,7 +354,7 @@ function TradingSignalsSection() {
         <div className="mb-8 sm:mb-12">
           <div className="relative w-full aspect-[16/9] overflow-hidden">
             <Image
-              src="./client/c-11.png"
+              src="/client/c-11.png"
               alt="Web & Mobile Trading"
               fill
               className="object-contain"

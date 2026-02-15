@@ -9,8 +9,8 @@ export function DownloadSection() {
       name: "Windows",
       icon: "/Window.svg",
       label: "Download for Windows",
-      href: "#",
-      primary: true,
+      href: "https://builds-exchange.s3.ap-south-1.amazonaws.com/client/500x%20Exchange%20Client%20Setup%200.1.0.exe",
+      Download: true,
     },
     {
       name: "macOS",
@@ -23,7 +23,7 @@ export function DownloadSection() {
       name: "WebTerminal",
       icon: "monitor",
       label: "WebTerminal",
-      href: "#",
+      href: "https://client.500x.exchange/",
       primary: false,
     },
   ];
@@ -188,7 +188,7 @@ export function DownloadSection() {
           <div className="mb-8 sm:mb-12 flex justify-center">
             <div className="relative w-full max-w-5xl h-auto">
               <Image
-                src="./client/C-11.png"
+                src="/client/C-11.png"
                 alt="500x Desktop"
                 width={1200}
                 height={600}

@@ -173,7 +173,7 @@ export function HeroSection() {
               </div>
               <div className="flex flex-col space-y-3">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/500xpro?igsh=bm05Z3IyNTZxc3pr"
                   className="w-10 h-10 border border-white/30 text-white hover:bg-[#fcd535] hover:border-[#848E9C] transition-all duration-300 flex items-center justify-center rounded-full group"
                 >
                   <span className="text-xs font-bold transition-transform group-hover:scale-110 group-hover:text-black">
@@ -181,7 +181,7 @@ export function HeroSection() {
                   </span>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/share/1BmT9yDFMj/"
                   className="w-10 h-10 border border-white/30 text-white hover:bg-[#fcd535] hover:border-[#848E9C] transition-all duration-300 flex items-center justify-center rounded-full group"
                 >
                   <span className="text-xs font-bold transition-transform group-hover:scale-110 group-hover:text-black">
@@ -205,7 +205,7 @@ export function HeroSection() {
                   </span>
                 </a>
                 <a
-                  href="#"
+                  href="mailto:500xpro2026@gmail.com"
                   className="w-10 h-10 bg-[#f5e49e] text-black hover:bg-[#fcd535]/90 hover:scale-110 transition-all duration-300 flex items-center justify-center rounded-full group"
                 >
                   <span className="text-xs font-bold transition-transform group-hover:scale-110">@</span>

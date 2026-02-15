@@ -115,7 +115,7 @@ export default function ForBrokerPage() {
             <div className="mt-1 mb-1">
               <div className="w-full max-w-5xl mx-auto overflow-hidden p-8">
                 <img
-                  src="./client/c-16.png"
+                  src="/client/c-16.png"
                   alt="500x Architecture"
                   className="w-full h-auto object-cover"
                 />

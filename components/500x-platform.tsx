@@ -73,7 +73,7 @@ export default function Platform500xPage() {
           {/* Exchange row + funnel lines */}
           <div className="mt-10 animate-fade-in-up-delay-2 flex justify-center">
             <img
-              src="./client/c-12.png"
+              src="/client/c-12.png"
               alt="Multiple exchanges funneling into a single platform"
               className="w-full max-w-4xl opacity-90"
             />
@@ -113,7 +113,7 @@ export default function Platform500xPage() {
 
           <div className="mt-10 rounded-2xl border border-white/10 bg-[#1e2329]/60 overflow-hidden">
             <img
-              src="./client/c-13.jpg"
+              src="/client/c-13.jpg"
               alt="Dummy symbols screenshot"
               className="w-full h-auto object-cover"
             />

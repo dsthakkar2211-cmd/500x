@@ -49,7 +49,7 @@ export default function ForOwnerPage() {
         <div className="p-4">
           <div className="w-full h-[200px] md:h-[700px] rounded overflow-hidden relative">
             <Image
-              src="./client/c-14.png"
+              src="/client/c-14.png"
               alt="Administrator"
               fill
               className="object-contain"

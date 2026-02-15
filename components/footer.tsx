@@ -35,16 +35,45 @@ export function Footer() {
 
 
           <div className="flex gap-2">
-            {[Facebook, Twitter, Instagram, Youtube].map((Icon, i) => (
-              <a
-                key={i}
-                href="#"
-                aria-label="Social link"
-                className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center transition-colors hover:bg-[#fcd535] group"
-              >
-                <Icon className="w-3.5 h-3.5 group-hover:text-black transition-colors" />
-              </a>
-            ))}
+            {/* Instagram */}
+            <a
+              href="https://www.instagram.com/500xpro?igsh=bm05Z3IyNTZxc3pr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center transition-colors hover:bg-[#fcd535] group"
+            >
+              <Instagram className="w-3.5 h-3.5 group-hover:text-black transition-colors" />
+            </a>
+            
+            {/* Facebook */}
+            <a
+              href="https://www.facebook.com/share/1BmT9yDFMj/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center transition-colors hover:bg-[#fcd535] group"
+            >
+              <Facebook className="w-3.5 h-3.5 group-hover:text-black transition-colors" />
+            </a>
+
+            {/* Twitter */}
+            <a
+              href="#"
+              aria-label="Twitter"
+              className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center transition-colors hover:bg-[#fcd535] group"
+            >
+              <Twitter className="w-3.5 h-3.5 group-hover:text-black transition-colors" />
+            </a>
+
+            {/* YouTube */}
+            <a
+              href="#"
+              aria-label="YouTube"
+              className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center transition-colors hover:bg-[#fcd535] group"
+            >
+              <Youtube className="w-3.5 h-3.5 group-hover:text-black transition-colors" />
+            </a>
           </div>
         </div>
 
@@ -132,11 +161,11 @@ export function Footer() {
                 </div>
                 <div>
                   <p className="text-white/70 mb-0.5"><span className="text-[12px] text-[#848E9C]">WhatsApp:</span></p>
-                  <a href="https://wa.me/447452323598" className="text-white hover:text-[#fcd535]">+44 7452 323598</a>
+                  <a href="https://wa.me/971543141177" className="text-white hover:text-[#fcd535]">+971 54 314 1177</a>
                 </div>
                 <div>
                   <p className="text-white/70 mb-0.5"><span className="text-[12px] text-[#848E9C]">Phone:</span></p>
-                  <a href="tel:+447452323598" className="text-white hover:text-[#fcd535]">+44 7452 323598</a>
+                  <a href="tel:+971543141177" className="text-white hover:text-[#fcd535]">+971 54 314 1177</a>
                 </div>
               </div>
             </div>
@@ -216,9 +245,18 @@ export function Footer() {
           <div className="flex flex-nowrap justify-center items-center gap-3 sm:gap-4 w-full overflow-x-auto">
             {/* App download icons */}
             {[
-              { href: "#", label: "Windows", icon: "/window.svg" },
+              {
+                href: "https://builds-exchange.s3.ap-south-1.amazonaws.com/client/500x%20Exchange%20Client%20Setup%200.1.0.exe",
+                label: "Windows",
+                icon: "/window.svg",
+                download: true,
+              },
               { href: "#", label: "macOS", icon: "/mac-logo.svg" },
-              { href: "#", label: "Android", icon: "/android.svg" },
+              { href: "https://builds-exchange.s3.ap-south-1.amazonaws.com/client/500x%20Exchange.apk", 
+                label: "Android", 
+                icon: "/android.svg",
+                download: true, 
+              },
               { href: "#", label: "iOS", icon: "/ios.svg" },
             ].map(({ href, label, icon }) => (
               <a

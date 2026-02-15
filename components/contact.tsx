@@ -435,7 +435,15 @@ function ContactFormSection() {
                   <option value="bill-payment">Bill Payment Inquiries</option>
                   <option value="technical-support">Technical Support</option>
                   <option value="general-inquiry">General Inquiry</option>
+                  <option value="delete-account">Delete Account</option>
                 </Select>
+                {form.reason === "delete-account" && (
+                  <div className="mt-2 rounded-md border border-red-200 bg-red-50 p-3">
+                    <p className="text-sm font-bold text-red-600">
+                      ⚠️ You are requesting to delete your account. This action is permanent and cannot be undone. Please provide your account details in the message below for verification.
+                    </p>
+                  </div>
+                )}
               </div>
 
               {/* Message */}

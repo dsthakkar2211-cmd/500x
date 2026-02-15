@@ -55,7 +55,7 @@ export default function BuyThePlatformPage() {
           <div className="mt-2 rounded-[40px] overflow-hidden shadow-[0_15px_40px_rgba(0,0,0,0.35)]">
             {/* Replace with your own diagram later */}
             <img
-              src="./client/c-17.png"
+              src="/client/c-17.png"
               alt="500x cycle diagram"
               className="w-full h-auto object-cover"
             />
