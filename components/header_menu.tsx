@@ -72,6 +72,7 @@ const NavigationMenu = () => {
       dropdownItems: [
         { title: "About Us", description: "Machine learning algorithms", path: "/f_about" },
         { title: "Contact Us", description: "Enterprise-grade security", path: "/contact" },
+        { title: "Delete Account", description: "Request account deletion", path: "/delete-account" },
         { title: "Legal Information", description: "Enterprise-grade security", path: "/legal" },
       ],
     },

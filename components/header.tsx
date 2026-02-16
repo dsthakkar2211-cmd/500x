@@ -54,9 +54,9 @@ export function Header() {
               </div>
               <div className="flex items-center gap-1 sm:gap-2">
                 <Phone size={14} className="text-[#848E9C]" />
-                <span className="text-[#848E9C] hover:text-[#FCD535] transition-colors duration-200">
-                  +44 (7452) 323598
-                </span>
+                <a href="tel:+971543141177" className="text-[#848E9C] hover:text-[#FCD535] transition-colors duration-200">
+                  +971 54 314 1177
+                </a>
               </div>
               <div className="hidden md:flex items-center gap-1 sm:gap-2">
                 <Clock size={14} className="text-[#848E9C]" />

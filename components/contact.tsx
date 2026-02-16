@@ -210,8 +210,8 @@ function StayConnected() {
             <h3 className="text-xl font-semibold text-white">Dial Us</h3>
             <p className="mt-2 text-[#848E9C]">For instant help & friendly service.</p>
             <div className="mt-3 space-y-2 text-base font-semibold text-[#fcd535]">
-              <p><span className="text-sm text-[#848E9C]">WhatsApp:</span> +44 (7452) 323598</p>
-              <p><span className="text-sm text-[#848E9C]">Phone:</span> +44 (7452) 323598</p>
+              <p><span className="text-sm text-[#848E9C]">WhatsApp:</span> +971 54 314 1177</p>
+              <p><span className="text-sm text-[#848E9C]">Phone:</span> +971 54 314 1177</p>
             </div>
           </div>
 
@@ -413,7 +413,7 @@ function ContactFormSection() {
                   id="phone"
                   type="tel"
                   inputMode="tel"
-                  placeholder="+44 7452 521422"
+                  placeholder="+971 54 314 1177"
                   value={form.phone}
                   onChange={(e) => update("phone", e.target.value)}
                   autoComplete="tel"
